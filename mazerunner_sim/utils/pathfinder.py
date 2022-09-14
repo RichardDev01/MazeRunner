@@ -99,7 +99,7 @@ def compute_explore_paths(start_coord: Coord, runner_known_map: np.array, runner
                     x, y = next_tile[0] + 1, next_tile[1] + 1
                     explored = np.pad(runner_explored_map, (1, 1), 'constant', constant_values=False)
                     #     UP                          LEFT                   RIGHT                       DOWN
-                    if not(explored[y - 1, x] and explored[y, x - 1] and explored[y, x + 1] and explored[y + 1, x]):
+                    if not (explored[y - 1, x] and explored[y, x - 1] and explored[y, x + 1] and explored[y + 1, x]):
                         edge_tiles.append(next_tile)
                     q.put((priority + 1, next_tile))
 

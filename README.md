@@ -2,6 +2,8 @@
 [![Build](https://github.com/mariadukmak/MazeRunner/actions/workflows/python-build.yml/badge.svg)](https://github.com/mariadukmak/MazeRunner/actions/workflows/python-build.yml)
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
+![](./readme_assets/mazerunner_demo.gif)
+
 
 This git repository houses the challenges for the course *Autonomy By Design*.
 
